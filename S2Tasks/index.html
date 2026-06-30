@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S2 Tasks</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <section class="card">
+      <h2>Book a time slot</h2>
+      <div class="row">
+        <input id="slotInput" type="text" placeholder="Try b3 or a1" />
+        <button id="bookBtn">Try booking</button>
+      </div>
+      <div id="bookingStatus" class="status">Pick a slot and see what happens.</div>
+    </section>
+
+    <section class="card">
+      <h2>Check the server</h2>
+      <button id="serverBtn">Ping server</button>
+      <div id="serverStatus" class="status">Click the button to test it.</div>
+    </section>
+
+    <section class="card">
+      <h2>Find meals by ingredient</h2>
+      <div class="row">
+        <input id="mealInput" type="text" placeholder="Try chicken or garlic" />
+        <button id="searchBtn">Find meals</button>
+      </div>
+      <div id="mealStatus" class="status">Type an ingredient and search.</div>
+      <div id="mealResults" class="results"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
